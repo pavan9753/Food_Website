@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;400&display=swap');
+
+*{
+    /* height: 100vh; */
+    margin: 0px;
+    padding: 0px;
+/* height: 100vh; */
+    box-sizing: border-box;
+    /* background-color: violet; */
+    
+
+}
+
+h1{
+    margin-bottom: 100px;
+    text-align: center;
+    color: wheat;
+}
+body
+{
+    background: rgb(101, 25, 187);
+    place-items: center;
+    height: fit-content;
+    /* background-image: url('') no repeat center; */
+    /* background: url('https://www.sagatraining.ca/wp-content/uploads/2018/10/background-images-for-login-form-8.jpg') no-repeat center center/cover; */
+
+ }
+.login_container h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.login_container
+{
+    background-color: white;
+    /* margin-top: 250px; */
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1;
+    width: 600px;
+    margin: auto;
+}
+.login_container form
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+form .form_value
+{
+    margin: 10px;
+    font-size: 22px;
+    
+    
+}
+
+form .form_value a
+{
+    text-decoration: none;
+}
+
+#button
+{
+
+    background-color: rgb(29, 202, 60);
+    color: white;
+}
+
+#button:hover
+{
+    color: black;
+    background: rgb(16, 128, 16);
+    border-radius: 5px;
+    /* border: 2px solid crimson; */
+    cursor: pointer;
+    /* transition: ; */
+    font-style: oblique;
+    /* transition: ; */
+
+}
+.form_value input
+{
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form_value #button
+{
+    width: 200px;
+    align-items: center;
+}
+/* .login_container ::before
+{
+    content: "";
+    background-image: url('https://media.istockphoto.com/photos/human-figure-icon-graphic-as-user-login-button-on-white-keyboard-picture-id1226883131?b=1&k=20&m=1226883131&s=170667a&w=0&h=FMYb1DFOYbcb2vmbzZhq71k-4cuarJ1U4xCBWjGnze8=');
+    /* background: blueviolet; */
+    /* position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    opacity: 0.4;
+    z-index: -3;
+} */ 

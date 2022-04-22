@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300;400&display=swap');
+
+*{
+    /* height: 100vh; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(19, 204, 164, 0.788);
+
+}
+
+
+
+
+.wrap
+{
+    /* display: flex; */
+    height: 190px;
+    width: 400px;
+    background: white;
+    
+    /* max-width: 500px; */
+    /* max-height: 500px; */
+    border-radius: 12px;
+    transition: height 0.2s ease;
+
+}
+.wrap.active
+{
+    height: 400px;
+}
+
+.wrap h1{
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    /* text-decoration:solid; */
+}
+.wrap p
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 550;
+
+}
+
+.wrap .form
+{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form .center_form
+{
+    font-size: 18px;
+    padding: 5px;
+    margin:3px;
+    border-radius: 5px;
+}
+/* #but_id 
+{
+    background-color: red;
+    
+
+} */
+.form #but_id{
+    background-color: violet;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrap #but_id :hover{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid violet;
+}
+
+.wrap .qr_code
+{
+    /* padding-top: 33px; */
+    /* padding-bottom: 33px; */
+    padding: 33px opx;
+    opacity: 0;
+    pointer-events: none;
+
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrap.active .qr_code
+{
+    opacity: 1;
+    transition: 0.9s ease;
+}
+/* .center
+{
+    text-align: center;
+} */
